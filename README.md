@@ -13,6 +13,8 @@ module(
   ruleset="process_stats"
 )
 
+module(load="omprog")
+
 ruleset(name="process_stats") {
   action(
     type="omprog"
