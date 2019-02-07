@@ -19,7 +19,7 @@ ruleset(name="process_stats") {
   action(
     type="omprog"
     name="to_exporter"
-    binary="/usr/local/bin/rsyslog_exporter"
+    binary="/usr/local/bin/rsyslog_exporter "
   )
 }
 ```
